@@ -1,0 +1,29 @@
+{
+    "name": "user/bienesraices",
+    "description": "creando un proyecto con POO",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "kgam"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5",
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6",
+        "mailgun/mailgun-php": "^4.2",
+        "symfony/http-client": "^7.0",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
